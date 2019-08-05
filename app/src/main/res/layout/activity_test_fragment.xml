@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="@drawable/bg_fast_entrance"
+        android:id="@+id/fast_entrance_container"
+        android:layout_width="206dp"
+        android:layout_height="520dp"
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
