@@ -1,0 +1,87 @@
+
+
+在onCreate中使用commitNow 在fragment的onViewCreate中使用fragment
+
+2019-07-25 16:29:31.907 6488-6488/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate start
+2019-07-25 16:29:31.918 6488-6488/intent.studypad..com.myapplication E/TestFragment: onAttach
+2019-07-25 16:29:31.918 6488-6488/intent.studypad..com.myapplication E/TestFragment: onAttach hidden:true
+2019-07-25 16:29:31.918 6488-6488/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate end
+2019-07-25 16:29:31.922 6488-6488/intent.studypad..com.myapplication E/TestFragment: onCreateView
+2019-07-25 16:29:31.925 6488-6488/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach
+2019-07-25 16:29:31.925 6488-6488/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach hidden:true
+2019-07-25 16:29:31.925 6488-6488/intent.studypad..com.myapplication E/TestFragment: onViewCreated
+2019-07-25 16:29:31.925 6488-6488/intent.studypad..com.myapplication E/TestFragment: onActivityCreated
+2019-07-25 16:29:31.925 6488-6488/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onCreateView
+2019-07-25 16:29:31.927 6488-6488/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onViewCreated
+2019-07-25 16:29:31.927 6488-6488/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onActivityCreated
+2019-07-25 16:29:31.927 6488-6488/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onStart
+
+在onCreate中使用commit 在fragment的onViewCreate中使用commitNow
+
+2019-07-25 16:35:31.070 7523-7523/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate start
+2019-07-25 16:35:31.083 7523-7523/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate end
+2019-07-25 16:35:31.090 7523-7523/intent.studypad..com.myapplication E/TestFragment: onAttach
+2019-07-25 16:35:31.090 7523-7523/intent.studypad..com.myapplication E/TestFragment: onCreateView
+2019-07-25 16:35:31.095 7523-7523/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach
+2019-07-25 16:35:31.095 7523-7523/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach hidden:true
+2019-07-25 16:35:31.095 7523-7523/intent.studypad..com.myapplication E/TestFragment: onViewCreated
+2019-07-25 16:35:31.095 7523-7523/intent.studypad..com.myapplication E/TestFragment: onActivityCreated
+2019-07-25 16:35:31.095 7523-7523/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onCreateView
+2019-07-25 16:35:31.097 7523-7523/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onViewCreated
+2019-07-25 16:35:31.097 7523-7523/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onActivityCreated
+2019-07-25 16:35:31.097 7523-7523/intent.studypad..com.myapplication E/TestFragment: onAttach hidden:true
+2019-07-25 16:35:31.097 7523-7523/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onStart
+
+在onCreate中使用commit 在fragment的onViewCreate中使用commit
+
+2019-07-25 16:39:12.015 7898-7898/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate start
+2019-07-25 16:39:12.030 7898-7898/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate end
+2019-07-25 16:39:12.036 7898-7898/intent.studypad..com.myapplication E/TestFragment: onAttach
+2019-07-25 16:39:12.037 7898-7898/intent.studypad..com.myapplication E/TestFragment: onCreateView
+2019-07-25 16:39:12.041 7898-7898/intent.studypad..com.myapplication E/TestFragment: onViewCreated
+2019-07-25 16:39:12.041 7898-7898/intent.studypad..com.myapplication E/TestFragment: onActivityCreated
+2019-07-25 16:39:12.041 7898-7898/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach
+2019-07-25 16:39:12.042 7898-7898/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onCreateView
+2019-07-25 16:39:12.044 7898-7898/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onViewCreated
+2019-07-25 16:39:12.044 7898-7898/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onActivityCreated
+2019-07-25 16:39:12.044 7898-7898/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach hidden:true
+2019-07-25 16:39:12.044 7898-7898/intent.studypad..com.myapplication E/TestFragment: onAttach hidden:true
+2019-07-25 16:39:12.044 7898-7898/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onStart
+
+
+
+
+在onStart中使用commitNow，在fragment的onViewCreate中使用commitNow
+2019-07-25 16:46:31.170 8881-8881/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate start
+2019-07-25 16:46:31.179 8881-8881/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate end
+2019-07-25 16:46:31.191 8881-8881/intent.studypad..com.myapplication E/TestFragment: onAttach
+2019-07-25 16:46:31.191 8881-8881/intent.studypad..com.myapplication E/TestFragment: onCreateView
+2019-07-25 16:46:31.195 8881-8881/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach
+2019-07-25 16:46:31.196 8881-8881/intent.studypad..com.myapplication E/TestFragment: TestChildFragment  hidden:true
+2019-07-25 16:46:31.196 8881-8881/intent.studypad..com.myapplication E/TestFragment: onViewCreated
+2019-07-25 16:46:31.196 8881-8881/intent.studypad..com.myapplication E/TestFragment: onActivityCreated
+2019-07-25 16:46:31.196 8881-8881/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onCreateView
+2019-07-25 16:46:31.198 8881-8881/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onViewCreated
+2019-07-25 16:46:31.198 8881-8881/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onActivityCreated
+2019-07-25 16:46:31.198 8881-8881/intent.studypad..com.myapplication E/TestFragment: hidden:true
+2019-07-25 16:46:31.198 8881-8881/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onStart
+
+
+在onStart中使用commitNow，在fragment的onViewCreate中使用commitNow
+2019-07-25 16:52:07.222 9334-9334/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate start
+2019-07-25 16:52:07.232 9334-9334/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onCreate end
+2019-07-25 16:52:07.240 9334-9334/intent.studypad..com.myapplication I/TestFragment: FragmentTestAct onStart
+2019-07-25 16:52:07.244 9334-9334/intent.studypad..com.myapplication E/TestFragment: onAttach
+2019-07-25 16:52:07.244 9334-9334/intent.studypad..com.myapplication E/TestFragment: onCreateView
+2019-07-25 16:52:07.250 9334-9334/intent.studypad..com.myapplication E/TestFragment: onViewCreated
+2019-07-25 16:52:07.250 9334-9334/intent.studypad..com.myapplication E/TestFragment: onActivityCreated
+2019-07-25 16:52:07.250 9334-9334/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onAttach
+2019-07-25 16:52:07.251 9334-9334/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onCreateView
+2019-07-25 16:52:07.253 9334-9334/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onViewCreated
+2019-07-25 16:52:07.253 9334-9334/intent.studypad..com.myapplication E/TestFragment: TestChildFragment onActivityCreated
+2019-07-25 16:52:07.253 9334-9334/intent.studypad..com.myapplication E/TestFragment: TestChildFragment  hidden:true
+2019-07-25 16:52:07.253 9334-9334/intent.studypad..com.myapplication E/TestFragment: hidden:true
+
+小结：
+1.commitNow如果再activity的create过程中，或者在fragment的create过程中，那么只会初始化当前fragment的attach方法，以及回调相应的hiddenChange方法
+2.commitNow如果是在oncreate之后执行，如onstart中，那么会初始化fragment的所有create流程，包括createView viewcreate activityCreate方法等。
